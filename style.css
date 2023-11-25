@@ -1,3 +1,14 @@
 .thumbnail{
     width: 300px;
+    display: block;
 } 
+
+.video-title{
+    width: 300px;
+}
+
+
+
+.video-author,  .video-stats{
+    color: gray;
+}
