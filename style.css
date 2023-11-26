@@ -39,17 +39,19 @@ p{
     margin-bottom: 12px;
 }
 
-.channel-picture{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+.channel-picture{ 
+    width: 50px; 
 }
- .video-info{
-    display: inline-block;
+ .video-info{ 
     width: 200px;
 }
 
 .profile-picture{
-    width: 100%;
+    width: 40px;
     border-radius: 50%;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
