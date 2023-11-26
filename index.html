@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,14 +15,26 @@
     />
   </head>
   <body>
-    <!-- search box -->
-    <input
-      class="search-bar"
-      type="text"
-      name="search"
-      placeholder="Search"
-      id="searchID"
-    />
+    <!-- Header -->
+    <div class="header">
+      <div class="left-section">
+        left
+      </div>
+      <div class="middle-section">
+        <!-- search box -->
+        <input
+          class="search-bar"
+          type="text"
+          name="search"
+          placeholder="Search"
+          id="searchID"
+        />
+      </div>
+      <div class="right-section">
+        right-section
+      </div>
+    </div>
+
     <div class="video-grid">
       <!-- 1 -->
       <div class="video-preview">
@@ -138,7 +152,9 @@
           </div>
 
           <div class="video-info">
-            <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
 
             <p class="video-author">CS Dojo</p>
             <p class="video-stats">519K views &#183; 5 years ago</p>
