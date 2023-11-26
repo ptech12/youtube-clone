@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- search box -->
@@ -17,24 +23,50 @@
     />
 
     <div class="video-preview">
-      <img class="thumbnail" src="img/thumbnail-1.webp" alt="thumb 1" />
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail-1.webp" alt="thumb 1" />
+      </div>
 
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-      </p>
+      <div>
+        <div class="channel-picture">
+          <img
+            class="profile-picture"
+            src="./img/profile/channel-1.jpeg"
+            alt="video 1 author profile"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
 
-      <p class="video-author">Marques Brownlee</p>
-      <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
 
+    <!-- 2 -->
     <div class="video-preview">
-      <img class="thumbnail" src="img/thumbnail-2.webp" alt="thumb 1" />
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail-2.webp" alt="thumb 2" />
+      </div>
 
-      <p class="video-title">Try Not To Laugh Challenge #9
-      </p>
+      <div>
+        <div class="channel-picture">
+          <img
+            class="profile-picture"
+            src="./img/profile/channel-2.jpeg"
+            alt="thumb nail 2"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
 
-      <p class="video-author">Markiplier </p>
-      <p class="video-stats">19M views &#183; 4 years ago</p>
+          <p class="video-author">Markiplier</p>
+          <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
